@@ -3,7 +3,8 @@ body{
 }
 
 #header {
-  background-color: black;
+  background-color: rgb(10, 10, 24);
+  padding: 15px 0 15px 0;
 }
 
 #title {

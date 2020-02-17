@@ -3,8 +3,11 @@
 }
 
 #score {
+    font-size: 28px;
     font-weight: bolder;
-    color: brown;
+    font-family: cursive;
+    color: rgb(255, 136, 1);
+    text-shadow: 1px 2px rgb(45, 2, 70);
 }
 
 #status {

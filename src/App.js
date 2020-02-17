@@ -59,12 +59,13 @@ class App extends Component {
         <Wrapper>
           {this.state.toons.map(character => (
             <Card
-              shuffleCard={this.shuffleCard}
+              shuffleCards={this.shuffleCards}
               id={character.id}
               key={character.id}
               image={character.image} />
           ))}
         </Wrapper>
+        <footer><small>by Angelo Capozzi</small></footer>
         
       </div>
     )

@@ -1,0 +1,13 @@
+#scoreBoard {
+    text-align: center;
+}
+
+#score {
+    font-weight: bolder;
+    color: brown;
+}
+
+#status {
+    font-style: italic;
+    color: green;
+}

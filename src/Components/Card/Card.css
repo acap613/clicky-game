@@ -1,0 +1,36 @@
+.card {
+    background: rgb(255, 81, 1);
+    border-radius: 2px;
+    /* height: 180px;
+    width: 180px; */
+    width: 180px;
+    height: 180px;
+    object-fit: contain; /* Fit logo in the image size */
+        -o-object-fit: contain; /* Fit logo fro opera browser */
+    object-position: top; /* Set logo position */
+        -o-object-position: top; /* Logo position for opera browser */
+    
+    background-size: cover;
+    margin: 2rem;
+    margin-top: 2px;
+    position: relative;
+    
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    overflow: hidden;
+    
+  }
+  
+  /* Slide */
+   .hover img {
+      
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+
+  }
+  .hover img:hover  {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+  
+  }

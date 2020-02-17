@@ -1,12 +1,12 @@
 //Start with dependencies
-import React from 'react';
-import Card from './Components/Card';
-import Wrapper from './Components/Wrapper';
-import Score from './Components/Score';
-import Header from './Components/Header';
+import React, {Component} from 'react';
+import Card from './Components/Card/Card';
+import Wrapper from './Components/Wrapper/Wrapper';
+import Score from './Components/Score/Score';
+//import Header from './Components/Header';
 import toons from './pics.json'
 import './App.css';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
 
 class App extends Component {
@@ -52,9 +52,20 @@ class App extends Component {
           <h1 id="title">Smash-Click-Pic!</h1>
           <p id="intro">Welcome to the Smash-Click-Pic guessing game! Try not to click the same pic twice!</p>
         </header>
-        <Score />
-        <Wrapper />
-        <Card />
+        <Score total ={this.state.score}
+               goal = {12}
+               status = {this.state.status}
+               />
+        <Wrapper>
+          {this.state.toons.map(character => (
+            <Card
+              shuffleCard={this.shuffleCard}
+              id={character.id}
+              key={character.id}
+              image={character.image} />
+          ))}
+        </Wrapper>
+        
       </div>
     )
   }

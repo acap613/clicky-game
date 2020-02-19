@@ -21,13 +21,17 @@ class App extends Component {
   };
 
   //include a shuffle function
+  //needs to do 2 things: 1.) save the state of a card when its been clicked so its ID counts towards a score
+  //2.) rearrange the IDs so that they randomly affix themselves to new positions in the Wrapper
   shuffleCards = id => {
     let clickedIds = this.state.clickedIds;
     //condition for losing
     if(clickedIds.includes(id)){
+      
       this.setState({ clickedIds: [], score: 0, status:  "You already clicked that one! Click to try again..." });
       return;
     } else {
+      //here is our first requirement: save state of IDs clicked
       clickedIds.push(id);
       //condition for winning
       if(clickedIds.length === 12){

@@ -12,7 +12,7 @@ and get a point. Every time you score a point the board reshuffles to keep you o
 
 # About this code
 this code was predominantly created using "npx create-react-app clicky-game" in node as well as downloading a few extra npm packages.
-the only coding I did, outside the CSS/Bootstrap for design purposes, was create the components folders, and of coure fleshed out the App.js to include the components, shuffle logic, and picture ids.
+the only coding I did, outside the CSS/Bootstrap for design purposes, was create the components folders, and of course fleshed out the App.js to include the components, shuffle logic, and picture ids.
 
 
 # Heroku

@@ -3,8 +3,8 @@
     border-radius: 2px;
     /* height: 180px;
     width: 180px; */
-    width: 180px;
-    height: 180px;
+    width: 80px;
+    height: 80px;
     object-fit: contain; /* Fit logo in the image size */
         -o-object-fit: contain; /* Fit logo fro opera browser */
     object-position: top; /* Set logo position */

@@ -2,8 +2,11 @@
 React based memory game: 12 characters from classic video games are shuffled randomly into position, click a pic you HAVEN'T clicked
 and get a point. Every time you score a point the board reshuffles to keep you on your toes! Try and get all 12...
 
-# Start by simply clicking a picture!
-![alt text](./public/images/Clicky_Game_1.png?raw=true)
+Start by simply clicking a picture!
+![alt text](./public/images/Clicky-Game_1.png?raw=true)
+
+Try and get all 12 without clicking the same pic twice!
+![alt text](./public/images/Clicky-Game_2.png?raw=true)
 
 # Technologies used:
 -React

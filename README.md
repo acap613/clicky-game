@@ -6,7 +6,7 @@ Start by simply clicking a picture!
 ![alt text](./public/images/game-pic1.png?raw=true)
 
 Try and get all 12 without clicking the same pic twice!
-![alt text](./public/images/game-pic2.png?raw=true)
+![alt text](./public/images/game-pic2.jng?raw=true)
 
 # Technologies used:
 -React

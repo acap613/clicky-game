@@ -18,7 +18,7 @@ Try and get all 12 without clicking the same pic twice!
 
 # About this code
 this code was predominantly created using "npx create-react-app clicky-game" in node as well as downloading a few extra npm packages.
-the only coding I did, outside the CSS/Bootstrap for design purposes, was create the components folders, and of course fleshed out the App.js to include the components, shuffle logic, and picture ids.
+What I did, outside manipulating the CSS/Bootstrap for design purposes, was create some components folders, and then looked up how to program the App.js to include the components, shuffle logic, and picture ids. A cool feature in this is that the pictures are stored in a JSON file so that any number of "cards" may be added if, for instance, you wanted to make this a game that plays to 20, or 50 or what ever (there are a lot of characters from Smash-Bros I didn't include...).
 
 # Author:
 Angelo Capozzi
